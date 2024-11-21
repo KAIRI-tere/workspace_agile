@@ -3,8 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>hogehoge</h1>
+    <div className="Normalbox">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -16,7 +15,6 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Agile 2
         </a>
       </header>
     </div>
