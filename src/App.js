@@ -17,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Agile
+          Learn Agile 2
         </a>
       </header>
     </div>
