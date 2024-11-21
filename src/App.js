@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App-main">
-      <div className="App-Box">
+      <div className="App-box">
         <div className="Prof">
           <ul>
               <li>デザイン Lv. 2 0/2</li>
@@ -22,7 +22,6 @@ function App() {
           </ul>
         </div>
       </div>
-      
     </div>
   );
 }
