@@ -3,20 +3,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="Normalbox">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
-      </header>
+    <div className="App">
+      <h1>hogehoge</h1>
+      <ul>
+        <li>デザイン Lv. 2 0/2</li>
+        <li>マネジメント Lv. 4 3/5</li>
+        <li>ビジネス Lv. 5 0/8</li>
+        <li>その他 Lv. 7 1/21</li>
+      </ul>
     </div>
   );
 }
