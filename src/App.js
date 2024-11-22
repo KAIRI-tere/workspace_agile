@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
+// const whiteProf = document.getElementById("white");
+// const redProf = document.
+
 function App() {
   return (
     <div className="App-main">
