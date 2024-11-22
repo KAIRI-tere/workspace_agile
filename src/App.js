@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 
+// const whiteProf = document.getElementById("white");
+// const redProf = document.
+
 function App() {
   return (
     <div className="App-main">
       <div className="App-box">
         <div className="Prof">
+          <input placeholder="入力してください" />
+          <img src="Profile_image.png" alt="xxx" />
         </div>
         <div className="Book-Level">
           <ul>
