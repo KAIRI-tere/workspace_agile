@@ -65,6 +65,20 @@
   /* background-size: 100% 100%;  */
 }
 
+.Input {
+  border-radius: 80px;
+  border: none;
+  padding: 5px 16px;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border-radius: 80px;
+  border: none;
+  padding: 5px 16px;
+}
+
 .Prof li{
   list-style: none;
 }

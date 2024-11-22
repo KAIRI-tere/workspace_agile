@@ -9,7 +9,6 @@ function App() {
     <div className="App-main">
       <div className="App-box">
         <div className="Prof">
-          <input placeholder="入力してください" />
           <img src="Profile_image.png" alt="xxx" />
         </div>
         <div className="Book-Level">
@@ -19,6 +18,8 @@ function App() {
             <li>ビジネス Lv. 5 0/8</li>
             <li>その他 Lv. 7 1/21</li>
           </ul>
+          <input className="Input" placeholder="xxx" />  
+         <button className="Button">Search</button>
         </div>
       </div>
     </div>
