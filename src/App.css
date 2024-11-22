@@ -14,16 +14,18 @@
 }
 
 .App-main {
-  width: 100%;
+  /* width: 100%; */
+  height:100%;
   background-color: black;
   display: flex;
   flex-direction:column;
 }
 
 .App-box {
-  min-height: 100vh;
-  max-height: 100vh;
-  width: 90%;
+  /* min-height: 50vh; */
+  /* max-height: 100vh; */
+  width: 80%;
+  height:70%;
   background-color: black;
   display: flex;
   flex-direction:row;
@@ -36,27 +38,37 @@
 }
 
 .Book-Level {
-  min-height: 80vh;
-  max-height: 100vh;
-  width: 120vh;
+  /* min-height: 80vh; */
+  /* max-height: 100vh; */
+  width: 50vh;
   background-color: black;
   color: white;
-  margin: 1em 0;
+  margin:50px;
   padding: 1em;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  text-align: left;
+  border: solid white; 
 }
 
 .Book-Level li{
   list-style: none;
+  height: 50px;
+  /* border: solid white; */
+  margin: auto;
 }
 
+
+
 .Prof {
-  min-height: 80vh;
-  max-height: 100vh;
-  width: 120vh;
-  margin: 1em 0;
+  /* min-height: 80vh; */
+  /* max-height: 100vh; */
+  width: 50%;
   padding: 1em;
+  margin: 50px;
+  border: solid white;
+  text-align: center;
+ /* background-image: url(Profile_image.png);  */
   margin-left: auto;
   margin-right: auto;
 
