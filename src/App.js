@@ -9,7 +9,7 @@ function App() {
     <div className="App-main">
       <div className="App-box">
         <div className="Prof">
-          <img src="Profile_image.png" alt="xxx" />
+          <img src="Profile_image.png" alt="profileImage"></img>
         </div>
         <div className="Book-Level">
           <ul>
