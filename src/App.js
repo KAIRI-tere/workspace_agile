@@ -6,12 +6,6 @@ function App() {
     <div className="App-main">
       <div className="App-box">
         <div className="Prof">
-          <ul>
-              <li>デザイン Lv. 2 0/2</li>
-              <li>マネジメント Lv. 4 3/5</li>
-              <li>ビジネス Lv. 5 0/8</li>
-              <li>その他 Lv. 7 1/21</li>
-            </ul>
         </div>
         <div className="Book-Level">
           <ul>
