@@ -18,8 +18,8 @@ function App() {
             <li>ビジネス Lv. 5 0/8</li>
             <li>その他 Lv. 7 1/21</li>
           </ul>
-          <input className="Input" placeholder="xxx" />  
-         <button className="Button">Search</button>
+          {/* <input className="Input" placeholder="xxx" />  
+         <button className="Button">Search</button> */}
         </div>
       </div>
     </div>
