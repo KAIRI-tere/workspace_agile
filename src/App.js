@@ -10,14 +10,33 @@ function App() {
       <div className="App-box">
         <div className="Prof">
           <img src="Profile_image.png" alt="profileImage"></img>
+          <p>進撃の巨人</p>
         </div>
         <div className="Book-Level">
-          <ul>
-            <li>デザイン Lv. 2 0/2</li>
-            <li>マネジメント Lv. 4 3/5</li>
-            <li>ビジネス Lv. 5 0/8</li>
-            <li>その他 Lv. 7 1/21</li>
-          </ul>
+          <botton className="button_design">
+            <ul>
+              <li>デザイン</li>
+              <li>Lv.2  0/100</li>
+            </ul>
+          </botton>
+          <botton className="button_management">
+            <ul>
+              <li>マネジメント</li>
+              <li>Lv.4  2/100</li>
+            </ul>
+          </botton>
+          <botton className="button_business">
+            <ul>
+              <li>ビジネス</li>
+              <li>Lv.3  0/100</li>
+            </ul>
+          </botton>
+          <botton className="button_etc">
+            <ul>
+              <li>その他</li>
+              <li>Lv.2  0/100</li>
+            </ul>
+          </botton>
           {/* <input className="Input" placeholder="xxx" />  
          <button className="Button">Search</button> */}
         </div>
