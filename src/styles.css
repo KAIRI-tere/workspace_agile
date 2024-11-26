@@ -1,0 +1,255 @@
+body {
+    font-family: sans-serif;
+    color: #666;
+  }
+   
+  /* button {
+    border-radius: 8px;
+    border: none;
+    padding: 4px 16px;
+    margin: 0px 2px;
+  } */
+   
+  .profile-img {
+    text-align: center;
+  }
+   
+  .profile-img p {
+    font-size: 50px;
+  }
+   
+  .skill-area {
+    border: 2px solid #aacfd0;
+    width: 400px;
+    height: 500px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+  }
+   
+  .title {
+    text-align: center;
+    margin-top: 0;
+    font-weight: bold;
+  }
+   
+  .App {
+    text-align: center;
+  }
+   
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+   
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 5s linear;
+    }
+  }
+   
+  .App-main {
+    /* width: 100%; */
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+  }
+   
+  .App-box {
+    /* min-height: 50vh; */
+    /* max-height: 100vh; */
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    padding: 1em;
+    border-radius: 16px;
+    border: solid white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+   
+  .Book-Level {
+    /* min-height: 80vh; */
+    /* max-height: 100vh; */
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    color: white;
+    margin: 50px;
+    padding: 1em;
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: left;
+    border: solid white;
+    border-radius: 16px;
+  }
+   
+  .Book-Level li {
+    list-style: none;
+    height: 50px;
+    /* border: solid white; */
+    margin: auto;
+  }
+   
+  .Prof {
+    /* min-height: 80vh; */
+    /* max-height: 100vh; */
+    width: 600px;
+    height: 100%;
+    padding: 1em;
+    margin: 50px;
+    border: solid white;
+    border-radius: 16px;
+    text-align: center;
+    /* background-image: url(Profile_image.png);  */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    color: white;
+   
+    /* background-image: url(Profile_image.png);  */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% 100%;  */
+  }
+   
+  .Input {
+    border-radius: 80px;
+    border: none;
+    padding: 5px 16px;
+  }
+   
+  .button {
+    background-color: white;
+    color: black;
+    border-radius: 80px;
+    border: none;
+    padding: 5px 16px;
+  }
+   
+  .button_design {
+    position: relative;
+    background-color: transparent; /* 背景色 */
+    color: white; /* 文字色 */
+    width: 200px;
+    height: 200px;
+    padding: 15px 32px; /* パディング */
+    text-align: justify; /* 文字のアライメント */
+    text-decoration: none; /* 文字装飾 */
+    display: inline-block; /* ボタンの表示方法 */
+    font-size: 24px; /* フォントサイズ */
+    font-family: Arial, sans-serif; /* フォント */
+    margin: 10px 2px; /* 外側の余白 */
+    cursor: pointer; /* カーソル */
+    border: 2px solid white; /* 枠線 */
+    border-radius: 16px; /* ボタンの角丸 */
+  }
+   
+  /* ここまだうまく動いていない */
+  .button_design:hover {
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+  }
+   
+  .button_management {
+    position: relative;
+    background-color: transparent; /* 背景色 */
+    width: 200px;
+    height: 200px;
+    color: gray; /* 文字色 */
+    padding: 15px 32px; /* パディング */
+    text-align: justify; /* 文字のアライメント */
+    text-decoration: none; /* 文字装飾 */
+    display: inline-block; /* ボタンの表示方法 */
+    font-size: 24px; /* フォントサイズ */
+    font-family: Arial, sans-serif; /* フォント */
+    margin: 10% 25px; /* 外側の余白 */
+    cursor: pointer; /* カーソル */
+    border: 2px solid gray; /* 枠線 */
+    border-radius: 16px; /* ボタンの角丸 */
+  }
+   
+  .button_business {
+    position: relative;
+    background-color: transparent; /* 背景色 */
+    width: 200px;
+    height: 200px;
+    color: gray; /* 文字色 */
+    padding: 15px 32px; /* パディング */
+    text-align: justify; /* 文字のアライメント */
+    text-decoration: none; /* 文字装飾 */
+    display: inline-block; /* ボタンの表示方法 */
+    font-size: 24px; /* フォントサイズ */
+    font-family: Arial, sans-serif; /* フォント */
+    margin: 10px 2px; /* 外側の余白 */
+    cursor: pointer; /* カーソル */
+    border: 2px solid gray; /* 枠線 */
+    border-radius: 16px; /* ボタンの角丸 */
+  }
+   
+  .button_etc {
+    position: relative;
+    background-color: transparent; /* 背景色 */
+    width: 200px;
+    height: 200px;
+    color: gray; /* 文字色 */
+    padding: 15px 32px; /* パディング */
+    text-align: justify; /* 文字のアライメント */
+    text-decoration: none; /* 文字装飾 */
+    display: inline-block; /* ボタンの表示方法 */
+    font-size: 24px; /* フォントサイズ */
+    font-family: Arial, sans-serif; /* フォント */
+    margin: 10px 25px; /* 外側の余白 */
+    cursor: pointer; /* カーソル */
+    border: 2px solid gray; /* 枠線 */
+    border-radius: 16px; /* ボタンの角丸 */
+  }
+   
+  .Prof li {
+    list-style: none;
+  }
+   
+  .App-link {
+    color: #61dafb;
+  }
+   
+  .Normalbox p {
+    margin: 0;
+    padding: 0;
+  }
+   
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+   
+  .chart-top {
+    display: flex;
+    /* text-align: center; */
+  }
+   
+  .button-return {
+    position: relative;
+    background-color: transparent; /* 背景色 */
+    color: white; /* 文字色 */
+    width: 200px;
+    height: 50px;
+    padding: 5px 15px; /* パディング */
+    text-align: center; /* 文字のアライメント */
+    text-decoration: none; /* 文字装飾 */
+    display: inline-block; /* ボタンの表示方法 */
+    font-size: 15px; /* フォントサイズ */
+    font-family: Arial, sans-serif; /* フォント */
+    margin: 10px 2px; /* 外側の余白 */
+    cursor: pointer; /* カーソル */
+    border: 2px solid white; /* 枠線 */
+    border-radius: 16px; /* ボタンの角丸 */
+  }
